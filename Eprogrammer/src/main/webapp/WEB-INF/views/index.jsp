@@ -22,17 +22,17 @@
          if(request.getAttribute("noti")!=null)
          {
         	 rs=(ResultSet)request.getAttribute("noti");
-         }
+       //  }
          %>
           <marquee style="color:black;" direction="left" onmouseover="stop()"onmouseout="start()"scrollamount="10">Timely Course Updates: Keep learners informed about new modules, schedule changes, and upcoming deadlines.
           <%
-             while(rs.next())
-             {
+             while(rs.next()){
+             
           %>
           <i class="bi bi-code-slash"></i><%=rs.getString("newsmsg") %>
           <%
-           if(x==1)
-           {
+           if(x==1){
+           
           %>
           <!--  <img src="<c:url value="/resources/images/new.img.gif"/>"width="40px" height="35px" />-->
               <%
@@ -42,6 +42,9 @@
           %>
 <!--           <i class="bi bi-code-slash"></i>  --> 
           </marquee>
+          <%
+             }
+          %>
          </div>
        </div>
        

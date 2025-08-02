@@ -8,7 +8,7 @@
       <div class="col-sm-3 Logo">
        <!-- <img src="<c:url value="/resources/images/logo.png"/>"width="100%"style="margin-left:60px;height: 170px;margin-top:-45px;"/>-->
       </div>
-      <div class="col-sm-9 sitename"style="color:white;font-family:serif;">
+      <div class="col-sm-9 sitename"style="color:white;font-family:serif;margin-top:2vw;">
         Welcome to E-Programmers
         <p style="font-size:22px;text-decoration:italic;font-family:serif;">
          </p>
